@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Data Diri</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <i class="fa-solid fa-circle-user"></i>
+      <span>Data Diri</span>
+    </div>
+
+    <nav class="sidebar-menu">
+      <a href="#" class="menu-item active">
+        <i class="fa-solid fa-house"></i> Dashboard
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fa-solid fa-id-badge"></i> Profil
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fa-solid fa-address-card"></i> Biodata
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fa-solid fa-gear"></i> Pengaturan
+      </a>
+      <a href="#" class="menu-item">
+        <i class="fa-solid fa-right-from-bracket"></i> Logout
+      </a>
+    </nav>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <div class="topbar">
+      <h1>Dashboard Data Diri</h1>
+      <div class="user-chip">
+        <span>Ibnu</span>
+        <i class="fa-regular fa-circle-user"></i>
+      </div>
+    </div>
+
+    <!-- STAT CARDS -->
+    <section class="stat-cards">
+      <div class="card">
+        <i class="fa-solid fa-user"></i>
+        <div class="card-value">1</div>
+        <div class="card-label">Profil</div>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-envelope"></i>
+        <div class="card-value">1</div>
+        <div class="card-label">Email</div>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-phone"></i>
+        <div class="card-value">1</div>
+        <div class="card-label">Kontak</div>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-location-dot"></i>
+        <div class="card-value">1</div>
+        <div class="card-label">Alamat</div>
+      </div>
+    </section>
+
+    <!-- BOTTOM GRID -->
+    <section class="bottom-grid">
+
+      <div class="panel form-panel">
+        <h2>Form Data Diri</h2>
+        <form>
+          <input type="text" placeholder="Nama" value="Dedi">
+          <input type="text" placeholder="NIM" value="123495">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Nomor HP">
+          <input type="text" placeholder="Alamat">
+          <button type="button" class="btn-simpan">Simpan</button>
+        </form>
+      </div>
+
+      <div class="panel table-panel">
+        <h2>Data Mahasiswa</h2>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Kelas</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ibnu Izzan</td>
+                <td>0897509488</td>
+                <td>XI-RPL2</td>
+                <td>ibnuizzan23@gmail.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+</div>
+
+</body>
+</html>
